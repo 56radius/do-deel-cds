@@ -9,10 +9,10 @@ const HomePage = () => {
           <div className="flex items-center justify-between h-16 lg:h-20">
           
             <div className="hidden lg:flex lg:items-center lg:justify-center lg:space-x-10">
-              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Features</a>
-              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Solutions</a>
-              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Resources</a>
-              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Pricing</a>
+              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Home</a>
+              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80"> About  </a>
+              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80"> Services </a>
+              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80"> Contact? </a>
             </div>
 
             <div className="lg:flex lg:items-center lg:justify-end lg:space-x-6 sm:ml-auto">
@@ -49,7 +49,8 @@ const HomePage = () => {
               </span>
             </h1>
             <p className="mt-5 text-base sm:text-xl">
-              No more hassle taking loans and making payments. Try Postcrats credit card, make your life simple.
+             We are Digital Operators, The tech section of Nysc
+             
             </p>
 
             <a
@@ -76,7 +77,7 @@ const HomePage = () => {
                   <path d="M13.2231 15.8512H7.11157C3.73595 15.8512 1 18.5871 1 21.9628V22.9814C1 22.9814 4.18311 24 10.1674 24C16.1516 24 19.3347 22.9814 19.3347 22.9814V21.9628C19.3347 18.5871 16.5988 15.8512 13.2231 15.8512Z" fill="#0B1715" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M5.07422 6.68386C5.07422 3.87152 7.35485 1.59088 10.1672 1.59088C12.9795 1.59088 15.2602 3.87152 15.2602 6.68386C15.2602 9.4962 12.9795 12.7954 10.1672 12.7954C7.35485 12.7954 5.07422 9.4962 5.07422 6.68386Z" fill="#0B1715" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p className="ml-3 text-sm">Over 12,000 students joined</p>
+                <p className="ml-3 text-sm">Over 1000 corpers </p>
               </div>
 
               <div className="flex items-center">
@@ -90,7 +91,7 @@ const HomePage = () => {
                   />
                   {/* Add additional path elements here if needed */}
                 </svg>
-                <p className="ml-3 text-sm">Safe & secured for every transaction</p>
+                <p className="ml-3 text-sm">Innovation and impact</p>
               </div>
 
               <div className="flex items-center">
@@ -98,7 +99,7 @@ const HomePage = () => {
                   <circle cx="12" cy="12" r="11" stroke="white" strokeWidth="1.5" />
                   <path d="M8 12.5L11 15.5L16 10" stroke="#28CC9D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <p className="ml-3 text-sm">Approval in under 3 minutes</p>
+                <p className="ml-3 text-sm"> Projects </p>
               </div>
             </div>
           </div>
