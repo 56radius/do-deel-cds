@@ -9,11 +9,16 @@ import corpers from "../assets/images/corpers.jpg";
 import timer from "../assets/images/timer.png";
 
 
+//features code
 const features = [
   {
     name: 'Time for empowerment ',
     description: 'Empowering Communities through Digital Education and Inclusive Opportunities',
     icon: ServerIcon,
+  },
+  {
+    name: 'Time for empowerment ',
+    description: 'Digital Onboarders empowers YNEETs (youth not in education, employment, or training) with in-demand skills needed to access jobs or for starting businesses',
   },
 ]
 
@@ -27,7 +32,7 @@ const HomePage = () => {
             <div className="hidden lg:flex lg:items-center lg:justify-center lg:space-x-10">
               <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Home</a>
               <a href="#About" className="text-base transition-all duration-200 hover:text-opacity-80">About</a>
-              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Services</a>
+              <a href="#Services" className="text-base transition-all duration-200 hover:text-opacity-80">Services</a>
               <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Contact</a>
             </div>
 
@@ -123,8 +128,8 @@ const HomePage = () => {
                     <div>
                       <dt className="font-semibold text-gray-900 text-xl">{feature.name}</dt>
                       <dd className="mt-2">{feature.description}</dd>
+                   </div>
                   </div>
-              </div>
                 ))}
               </dl>
             </div>
@@ -139,6 +144,44 @@ const HomePage = () => {
         </div>
       </div>
     </div>
+
+    {/* More About Us */}
+
+    {/* Services section */}
+    <section id='Services' className="py-10 bg-gray-100 sm:py-16 lg:py-24">
+            <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+                <div className="max-w-2xl mx-auto text-center">
+                    <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"> What Does Do-Deel Do? </h2>
+                    <p className="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                </div>
+
+                <div className="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3">
+                    <div>
+                        <h3 className="font-bold text-3xl">
+                            <span style={{color: "green"}} className="text-transparent bg-clip-text"> Community Impact </span>
+                        </h3>
+                        <p className="mt-4 text-xl font-medium text-gray-900">Years in business</p>
+                        <p className="text-base mt-0.5 text-gray-500">Creating the successful path</p>
+                    </div>
+
+                    <div>
+                        <h3 className="font-bold text-3xl">
+                            <span style={{color: "green"}} className="text-transparent bg-clip-text"> Community Empowerment </span>
+                        </h3> 
+                        <p className="mt-4 text-xl font-medium text-gray-900">Projects delivered</p>
+                        <p className="text-base mt-0.5 text-gray-500">In last 6 years</p>
+                    </div>
+
+                    <div>
+                        <h3 className="font-bold text-3xl">
+                            <span style={{color: "green"}} className="text-transparent bg-clip-text"> 37+ </span>
+                        </h3>
+                        <p className="mt-4 text-xl font-medium text-gray-900">Team members</p>
+                        <p className="text-base mt-0.5 text-gray-500">Working for your success</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     
 
     {/* Footer */}
