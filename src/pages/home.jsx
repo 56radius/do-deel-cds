@@ -5,8 +5,28 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 
 //importing images
 import final from "../assets/images/nyscsecond.jpg";
+import black from "../assets/images/black.jpg";
 
 import AboutUs from '../components/AboutUs';
+
+const services = [
+  {
+    title: 'Digital Literacy',
+    description: 'Empowering youth with essential digital skills to thrive in the modern world.',
+    icon: <CloudArrowUpIcon className="w-10 h-10 text-green-600 mx-auto mb-4" />,
+  },
+  {
+    title: 'Business Support',
+    description: 'Helping local businesses grow through mentorship and digital tools.',
+    icon: <LockClosedIcon className="w-10 h-10 text-green-600 mx-auto mb-4" />,
+  },
+  {
+    title: 'Youth Education',
+    description: 'Providing resources and opportunities for learning and career growth.',
+    icon: <ServerIcon className="w-10 h-10 text-green-600 mx-auto mb-4" />,
+  },
+];
+
 
 const HomePage = () => {
   return (
@@ -96,42 +116,39 @@ const HomePage = () => {
 
     {/* More About Us */}
 
-    {/* Services section */}
-    <section id='Services' className="py-10 bg-gray-100 sm:py-16 lg:py-24">
-            <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
-                <div className="max-w-2xl mx-auto text-center">
-                    <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"> What Does Do-Deel Do? </h2>
-                    <p className="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8"> we are committed to fostering digital literacy, supporting local businesses, and educating the youth. </p>
-                </div>
+     {/* Services Section */}
+     <section  style={{
+          backgroundImage: `url(${black})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }} id="Services" className="py-10 min-h-screen bg-gray-100">
+        <div 
+          style={{
+            marginTop: "50px"
+          }} 
+          className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-black">What Does Do-Deel Do?</h2>
+            <p className="mt-4 text-lg text-gray-600">
+              We are committed to fostering digital literacy, supporting local businesses, and educating the youth.
+            </p>
+          </div>
 
-                <div className="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3">
-                    <div>
-                        <h3 className="font-bold text-3xl">
-                            <span style={{color: "green"}} className="text-transparent bg-clip-text"> Community Impact </span>
-                        </h3>
-                        <p className="mt-4 text-xl font-medium text-gray-900">Years in business</p>
-                        <p className="text-base mt-0.5 text-gray-500">Creating the successful path</p>
-                    </div>
-
-                    <div>
-                        <h3 className="font-bold text-3xl">
-                            <span style={{color: "green"}} className="text-transparent bg-clip-text"> Community Empowerment </span>
-                        </h3> 
-                        <p className="mt-4 text-xl font-medium text-gray-900">Projects delivered</p>
-                        <p className="text-base mt-0.5 text-gray-500">In last 6 years</p>
-                    </div>
-
-                    <div>
-                        <h3 className="font-bold text-3xl">
-                            <span style={{color: "green"}} className="text-transparent bg-clip-text"> Industry Expertise </span>
-                        </h3>
-                        <p className="mt-4 text-xl font-medium text-gray-900">Team members</p>
-                        <p className="text-base mt-0.5 text-gray-500">Working for your success</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
+          <div className="grid gap-8 md:grid-cols-3 sm:grid-cols-2">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300 text-center"
+              >
+                {service.icon}
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
     {/* Footer */}
     <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24"

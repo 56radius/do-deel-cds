@@ -30,7 +30,7 @@ const AboutUs = () => {
         <div className="lg:pt-4 lg:pr-8">
           <div className="lg:max-w-lg">
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-              DO-DEEL OGUN STATE
+             <span style={{color: "green"}}>  DO-DEEL </span> OGUN STATE
             </p>
             <p className="mt-6 text-lg/8 text-gray-600">
               When it comes to tech for youths, do-deel is what you are looking for.
@@ -73,23 +73,17 @@ const AboutUs = () => {
               />
             </div>
             <div className="lg:pt-4">
-              <h2 className="text-4xl font-semibold text-gray-900 sm:text-5xl">DO-DEEL OGUN STATE</h2>
+              <h2 className="text-4xl font-semibold text-gray-900 sm:text-5xl"> DO-DEEL  <span style={{color: "green"}}> OGUN STATE </span></h2>
               <p className="mt-6 text-gray-600 text-lg">
                 When it comes to tech for youths, Do-Deel is what you’re looking for. We are transforming lives by
                 providing essential digital skills, supporting local businesses, and fostering sustainable community
                 development.
               </p>
-              <dl className="mt-10 space-y-8 text-base text-gray-600">
-                {features.map((feature) => (
-                  <div key={feature.name} className="flex items-start gap-6">
-                    <img src={timer} alt="icon" width={60} className="flex-shrink-0" />
-                    <div>
-                      <dt className="text-xl font-semibold text-gray-900">{feature.name}</dt>
-                      <dd className="mt-2">{feature.description}</dd>
-                    </div>
-                  </div>
-                ))}
-              </dl>
+              <p className="mt-6 text-gray-700 text-lg">
+                    Through workshops, hands-on training, and partnerships with local organizations, we aim to bridge the digital divide and 
+                    create a generation of empowered, tech-savvy leaders ready to drive positive change in their communities.
+              </p>
+
             </div>
             
           </div>
