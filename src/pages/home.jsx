@@ -197,9 +197,11 @@ const HomePage = () => {
         <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
                     <h2> DO-DEEL-CDS </h2>
-                <p className="text-base leading-relaxed text-white-600 mt-7"> When it comes to tech for youths, do-deel is what you are looking for we are dedicated to transforming lives by providing essential digital skills, supporting local businesses, and fostering sustainable community development.
-
-</p>
+                <p className="text-base leading-relaxed text-white-600 mt-7"> 
+                  When it comes to tech for youths, do-deel is what you are looking for we are dedicated
+                   to transforming lives by providing essential digital skills, supporting local businesses, and fostering
+                    sustainable community development.
+                </p>
 
                 <ul className="flex items-center space-x-3 mt-9">
                     <li>
@@ -269,23 +271,19 @@ const HomePage = () => {
             </div>
 
             <div>
-                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Help</p>
+                <p className="text-sm font-semibold tracking-widest text-white-400 uppercase"> Contact Info </p>
 
                 <ul className="mt-6 space-y-4">
                     <li>
-                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Customer Support </a>
+                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> M6RP+GMC, Ota 112104, Ogun State </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Delivery Details </a>
+                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> do_deelota@gmail.com </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Terms & Conditions </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Privacy Policy </a>
+                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> 09113423425 </a>
                     </li>
                 </ul>
             </div>
