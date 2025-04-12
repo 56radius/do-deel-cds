@@ -150,6 +150,8 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Gallry Section */}
+
     {/* Footer */}
     <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24"
      style={{
