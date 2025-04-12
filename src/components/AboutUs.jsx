@@ -5,6 +5,7 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 
 // Importing images
 import corper from "../assets/images/corpers.jpg";
+import timer from "../assets/images/timer.png";
 
 // Features data
 const features = [
@@ -60,6 +61,38 @@ const AboutUs = () => {
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
         />
       </div>
+
+      <div style={{marginTop: "150px"}} className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+
+            <div>
+              <img
+                src={corper}
+                alt="Community impact"
+                className="rounded-xl shadow-xl ring-1 ring-gray-400/10 w-full"
+              />
+            </div>
+            <div className="lg:pt-4">
+              <h2 className="text-4xl font-semibold text-gray-900 sm:text-5xl">DO-DEEL OGUN STATE</h2>
+              <p className="mt-6 text-gray-600 text-lg">
+                When it comes to tech for youths, Do-Deel is what you’re looking for. We are transforming lives by
+                providing essential digital skills, supporting local businesses, and fostering sustainable community
+                development.
+              </p>
+              <dl className="mt-10 space-y-8 text-base text-gray-600">
+                {features.map((feature) => (
+                  <div key={feature.name} className="flex items-start gap-6">
+                    <img src={timer} alt="icon" width={60} className="flex-shrink-0" />
+                    <div>
+                      <dt className="text-xl font-semibold text-gray-900">{feature.name}</dt>
+                      <dd className="mt-2">{feature.description}</dd>
+                    </div>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            
+          </div>
+
     </div>
   );
 };
