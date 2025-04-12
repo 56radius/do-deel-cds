@@ -6,6 +6,7 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 // Importing images
 import corper from "../assets/images/corpers.jpg";
 import timer from "../assets/images/timer.png";
+import serve from "../assets/images/serve.jpeg";
 
 // Features data
 const features = [
@@ -66,7 +67,7 @@ const AboutUs = () => {
 
             <div>
               <img
-                src={corper}
+                src={serve}
                 alt="Community impact"
                 className="rounded-xl shadow-xl ring-1 ring-gray-400/10 w-full"
               />

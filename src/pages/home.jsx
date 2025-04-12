@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-//importing iconds
+//importing icons
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
 //importing images
