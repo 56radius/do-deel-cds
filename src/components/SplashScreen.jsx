@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import logo from "../assets/images/relogo.png";
+
 const SplashScreen = () => {
   const [fadeOut, setFadeOut] = useState(false);
   const navigate = useNavigate(); // this gives us programmatic navigation
@@ -21,6 +23,7 @@ const SplashScreen = () => {
         fadeOut ? 'opacity-0' : 'opacity-100'
       }`}
     >
+      <img src={logo} />
       <h1 className="text-white text-4xl sm:text-6xl font-bold animate-pulse tracking-wide">
         Welcome to Do-Deel
       </h1>

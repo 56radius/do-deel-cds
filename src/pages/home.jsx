@@ -22,7 +22,7 @@ const HomePage = () => {
               <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Home</a>
               <a href="#About" className="text-base transition-all duration-200 hover:text-opacity-80">About</a>
               <a href="#Services" className="text-base transition-all duration-200 hover:text-opacity-80">Services</a>
-              <a href="#" className="text-base transition-all duration-200 hover:text-opacity-80">Contact</a>
+              <a href="#Gallery" className="text-base transition-all duration-200 hover:text-opacity-80"> Gallery </a>
             </div>
 
             <div className="lg:flex lg:items-center lg:justify-end lg:space-x-6 sm:ml-auto">
@@ -108,6 +108,58 @@ const HomePage = () => {
       </section>
 
       {/* Gallry Section */}
+      <section id="Gallery" className="py-40 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">Gallery</h2>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {/* Example images - replace src with your own images */}
+      <div className="overflow-hidden rounded-lg shadow-md">
+        <img
+          src={final}
+          alt="Gallery Image 1"
+          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <div className="overflow-hidden rounded-lg shadow-md">
+        <img
+          src={final}
+          alt="Gallery Image 2"
+          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <div className="overflow-hidden rounded-lg shadow-md">
+        <img
+          src={final}
+          alt="Gallery Image 3"
+          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <div className="overflow-hidden rounded-lg shadow-md">
+        <img
+          src={final}
+          alt="Gallery Image 4"
+          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <div className="overflow-hidden rounded-lg shadow-md">
+        <img
+          src={final}
+          alt="Gallery Image 5"
+          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <div className="overflow-hidden rounded-lg shadow-md">
+        <img
+          src={final}
+          alt="Gallery Image 6"
+          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
 
     {/* Footer */}
     <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24"
