@@ -158,7 +158,9 @@ const HomePage = () => {
       </div>
     </div>
   </div>
-</section>
+      </section>
+
+      {/* Community Outreach section */}
 
 
     {/* Footer */}
