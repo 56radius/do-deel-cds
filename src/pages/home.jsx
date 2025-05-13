@@ -7,6 +7,8 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 import final from "../assets/images/nyscsecond.jpg";
 import black from "../assets/images/black.jpg";
 
+import Gallery from '../components/component_pages/Gallery';
+
 //importing reusable compononets file
 import Services from '../components/Services';
 import AboutUs from '../components/AboutUs';
@@ -110,55 +112,7 @@ const HomePage = () => {
 
       {/* Gallry Section */}
       <section id="Gallery" className="py-40 bg-white">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">Gallery</h2>
-
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      {/* Example images - replace src with your own images */}
-      <div className="overflow-hidden rounded-lg shadow-md">
-        <img
-          src={final}
-          alt="Gallery Image 1"
-          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
-        />
-      </div>
-      <div className="overflow-hidden rounded-lg shadow-md">
-        <img
-          src={final}
-          alt="Gallery Image 2"
-          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
-        />
-      </div>
-      <div className="overflow-hidden rounded-lg shadow-md">
-        <img
-          src={final}
-          alt="Gallery Image 3"
-          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
-        />
-      </div>
-      <div className="overflow-hidden rounded-lg shadow-md">
-        <img
-          src={final}
-          alt="Gallery Image 4"
-          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
-        />
-      </div>
-      <div className="overflow-hidden rounded-lg shadow-md">
-        <img
-          src={final}
-          alt="Gallery Image 5"
-          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
-        />
-      </div>
-      <div className="overflow-hidden rounded-lg shadow-md">
-        <img
-          src={final}
-          alt="Gallery Image 6"
-          className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
-        />
-      </div>
-    </div>
-  </div>
+        <Gallery />
       </section>
 
       {/* Community Outreach section */}
