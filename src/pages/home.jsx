@@ -12,6 +12,7 @@ import Gallery from '../components/component_pages/Gallery';
 //importing reusable compononets file
 import Services from '../components/Services';
 import AboutUs from '../components/AboutUs';
+import MeetOurTeam from '../components/MeetOurTeam';
 import Footer from '../components/Footer';
 
 const HomePage = () => {
@@ -108,6 +109,11 @@ const HomePage = () => {
           backgroundRepeat: "no-repeat",
         }} id="Services" className="py-10 min-h-screen bg-gray-100">
         <Services />
+      </section>
+
+      {/* Meet Our Team Section */}
+      <section className="bg-white">
+        <MeetOurTeam />
       </section>
 
       {/* Gallry Section */}
