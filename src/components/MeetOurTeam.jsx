@@ -19,7 +19,7 @@ const teamData = {
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
   ],
   2025: [
-    { name: "Alex Johnson", position: "President", photo: "https://via.placeholder.com/100" },
+    { name: "Aanuoluwapo", position: "President", photo: "https://via.placeholder.com/100" },
     { name: "Merit Mohammed", position: "Vice President", photo: merit },
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
