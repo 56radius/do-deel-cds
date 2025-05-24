@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import corpers from "../assets/images/gallery/lamp.jpeg";
 
+import merit from "../assets/images/team/2025/merit.jpeg";
+
 const teamData = {
   2023: [
     { name: "John Doe", position: "President", photo: corpers },
     { name: "Jane Smith", position: "Vice President", photo: "https://via.placeholder.com/100" },
-     { name: "Alex Johnson", position: "President", photo: "https://via.placeholder.com/100" },
+    { name: "Alex Johnson", position: "President", photo: "https://via.placeholder.com/100" },
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
@@ -18,7 +20,7 @@ const teamData = {
   ],
   2025: [
     { name: "Alex Johnson", position: "President", photo: "https://via.placeholder.com/100" },
-    { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
+    { name: "Merit Mohammed", position: "Vice President", photo: merit },
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
     { name: "Linda Kim", position: "Vice President", photo: "https://via.placeholder.com/100" },
