@@ -29,7 +29,7 @@ const Services = () => {
         }} 
         className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 style={{color: "#FFFDO", fontWeight: 'bold', }} className="text-4xl font-bold text-black"> <strong> What Does Do-Deel Do? </strong> </h2>
+          <h2 style={{color: "#FFFDO", fontWeight: 'bold', }} className="text-4xl font-bold text-black"> <strong> What Does DL4ALL Do? </strong> </h2>
           <p className="mt-4 text-lg text-gray-600">
             We are committed to fostering digital literacy, supporting local businesses, and educating the youth.
           </p>

@@ -5,9 +5,9 @@ const Footer = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-                    <h2> DO-DEEL-CDS </h2>
+                    <h2> DL4ALL-CDS </h2>
                 <p className="text-base leading-relaxed text-white-600 mt-7"> 
-                  When it comes to tech for youths, do-deel is what you are looking for we are dedicated
+                  When it comes to tech for youths, DL4ALL is what you are looking for we are dedicated
                    to transforming lives by providing essential digital skills, supporting local businesses, and fostering
                     sustainable community development.
                 </p>
@@ -88,7 +88,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> do_deelota@gmail.com </a>
+                        <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> dl4allota@gmail.com </a>
                     </li>
 
                     <li>

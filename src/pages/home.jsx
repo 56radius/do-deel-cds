@@ -69,11 +69,11 @@ const HomePage = () => {
           <div className="max-w-xl mx-auto text-center">
             <h1 className="text-4xl font-bold sm:text-6xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-white">
-                Welcome To Do-Deel <br /> Ota, Ogun State
+                Welcome To Digital Literacy, For All <br /> Ota, Ogun State
               </span>
             </h1>
             <p className="mt-5 text-base sm:text-xl">
-              At DO-DEEL Ogun State, we are committed to fostering digital literacy, supporting local businesses, and educating the youth.
+              At DL4ALL Ogun State, we are committed to fostering digital literacy, supporting local businesses, and educating the youth.
             </p>
 
             <a

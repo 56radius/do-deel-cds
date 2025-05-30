@@ -25,8 +25,9 @@ const SplashScreen = () => {
     >
       <img src={logo} />
       <h1 className="text-white text-4xl sm:text-6xl font-bold animate-pulse tracking-wide">
-        Welcome to Do-Deel
+        Welcome to Digital Literacy - For All
       </h1>
+      <h2 className="text-white text-4xl sm:text-6xl font-bold animate-pulse tracking-wide"> DL4ALL </h2>
       <p className="text-gray-300 text-lg mt-4 sm:mt-6 animate-fade-in delay-500">
         Empowering Communities Through Digital Innovation
       </p>

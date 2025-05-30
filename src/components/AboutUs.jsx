@@ -31,10 +31,10 @@ const AboutUs = () => {
         <div className="lg:pt-4 lg:pr-8">
           <div className="lg:max-w-lg">
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-             <span style={{color: "green"}}>  DO-DEEL </span> OGUN STATE
+             <span style={{color: "green"}}>  DL4ALL </span> OGUN STATE
             </p>
             <p className="mt-6 text-lg/8 text-gray-600">
-              When it comes to tech for youths, do-deel is what you are looking for.
+              When it comes to tech for youths, DL4ALL is what you are looking for.
               We are dedicated to transforming lives by providing essential digital skills,
               supporting local businesses, and fostering sustainable community development.
             </p>
@@ -74,9 +74,9 @@ const AboutUs = () => {
               />
             </div>
             <div className="lg:pt-4">
-              <h2 className="text-4xl font-semibold text-gray-900 sm:text-5xl"> DO-DEEL  <span style={{color: "green"}}> OGUN STATE </span></h2>
+              <h2 className="text-4xl font-semibold text-gray-900 sm:text-5xl"> DL4ALL  <span style={{color: "green"}}> OGUN STATE </span></h2>
               <p className="mt-6 text-gray-600 text-lg">
-                When it comes to tech for youths, Do-Deel is what you’re looking for. We are transforming lives by
+                When it comes to tech for youths, DL4ALL is what you’re looking for. We are transforming lives by
                 providing essential digital skills, supporting local businesses, and fostering sustainable community
                 development.
               </p>
